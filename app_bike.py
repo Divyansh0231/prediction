@@ -3,7 +3,7 @@ import pandas as pd
 import xgboost as xgb
 
 def main():
-    st.title("Bike Price Prediction Using ML")
+    st.title("Bike Price Prediction")
 
     model = xgb.XGBRegressor()
     model.load_model('xgb_model_bike.json')
