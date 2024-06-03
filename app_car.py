@@ -12,9 +12,9 @@ def main():
     # Inputs from the user
     age = st.number_input('Age of Car?', 0, 63, step=1)
     kms_driven = st.number_input('What is the distance completed by the car in kilometers?', 171, 6500000, step=100)
-    mileage = st.number_input('Mileage of car(in kmpl, kmpkg)?',3.5, 33.54, step=1.0)
-    engine = st.number_input('Engine of car?',72, 5998, step=10)
-    power = st.number_input('Power of your car?',34.2,560.0, step=10.0)
+    mileage = st.number_input('Mileage of car(in kmpl, kmpkg, kWh)?',3.5, 33.54, step=1.0)
+    engine = st.number_input('Engine of car (in CC)?',72, 5998, step=10)
+    power = st.number_input('Power of your car (in bhp)?',34.2,560.0, step=10.0)
     seats = st.number_input('Number of seats in car?', 2, 10, step=2)
 
     # Brands, including all those expected by the model
