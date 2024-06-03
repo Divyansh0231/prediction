@@ -9,9 +9,9 @@ def main():
     model.load_model('xgb_model_bike.json')
 
     kms_driven = st.number_input('What is the distance completed by the bike in kilometers?', 0, 750000, step=100)
-    power = st.number_input('Power of your bike?', 0, 1800, step=20)
+    power = st.number_input('Power of your bike (in bhp)?', 0, 1800, step=20)
     stroke = st.number_input('Stroke of bike?', 0.0, 4.17, step=0.1)
-    mileage = st.number_input('Mileage of bike?', 1.0, 100.0, step=1.0)
+    mileage = st.number_input('Mileage of bike (in kmpl)?', 1.0, 100.0, step=1.0)
     age = st.number_input('Age of bike?', 0, 63, step=1)
     
     # List of brands in the order expected by the model
