@@ -3,7 +3,7 @@ import pandas as pd
 import xgboost as xgb
 
 def main():
-    st.title("Car Price Prediction Using ML")
+    st.title("Car Price Prediction")
 
     # Load the model
     model = xgb.XGBRegressor()
